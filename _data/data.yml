@@ -40,7 +40,10 @@ sidebar:
   interests:
     title: Interests
     info:
-      - item: Blockchain
+      - item: Video Generation
+        link:
+      
+      - item: Diffusion model
         link:
 
       - item: Formal Verification
@@ -54,8 +57,7 @@ career-profile:
   summary: |
     I have a background in both machine learning engineering and control engineering, with experience in the implementation of machine learning models. 
     During my internships at several research institutions, I conducted research on control theory and cryptography protocols using formal verification methods. 
-    Currently, I am focused on web3 technology and actively engaged in on-chain data analysis and smart contract development. 
-    Additionally, I am dedicated to deepening my knowledge in the highly interesting field of zero-knowledge proofs.
+    Currently, I am focused on diffusion model and video generation. 
 education:
   title: Education
   info:
@@ -73,8 +75,17 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Software Engineer – AI/ML SaaS 
+      time: 2023/7 - Present
+      company: Mavericks, inc., Tokyo
+      details: |
+        I am working as a software engineer for NoLang (Video Generation SaaS).
+          - Frontend development
+          - Backend development
+          - Infra development
+          - Model development
     - role: Software Engineer – Web3/Crypto
-      time: 2022 - Present
+      time: 2022 - 2023/7
       company: STANDARD Inc., Tokyo
       details: |
         I am working as a AI & Blockchain engineer.
@@ -119,9 +130,9 @@ projects:
   #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-    - title: Chain Insight DAO
-      link: https://github.com/team-tissis/cInsightDAO
-      tagline: a study meeting DAO project
+    - title: NoLang
+      link: https://no-lang.com/
+      tagline: Video Generation SaaS
 
 # oss:
 #     title: OSS Contributions
@@ -156,8 +167,11 @@ skills:
   toolset:
     - name: Python
       level: 98%
-
-    - name: Solidity
+    
+    - name: Next.js
+      level: 98%
+    
+    - name: AWS
       level: 98%
 
     - name: Simulink
